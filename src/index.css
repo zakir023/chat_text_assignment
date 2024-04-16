@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: azure;
+}
+
+.message-container {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.message {
+  margin-bottom: 10px;
+}
+
+.user {
+  font-weight: bold;
+  margin-right: 5px;
+
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: rgb(98, 0, 255);
+  text-align: center;
+  margin-top: 10px;
+
+}
+
+.text {
+  margin-right: 5px;
+
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  margin-top: 10px;
+
+}
+
+.like-button {
+  background-color: #69a2de;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.like-button:hover {
+  background-color: #0966ca;
+}
+
+.input-text {
+  margin-bottom: 10px;
+  padding: 5px;
+  
+}
+
+.send-button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.send-button:hover {
+  background-color: #0966ca;
+}
+
+
+.nav{
+  background-color: azure;
+}
+
+.inputfield input{
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+  border-radius: 10px;
+
+}
+.inputfield button{
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+
+
+
+
+/* emoji */
+.icon {
+  height: 40px;
+  width: 40px;
+}
+
+.button {
+  background: transparent;
+  outline: none;
+  border: none;
+}
